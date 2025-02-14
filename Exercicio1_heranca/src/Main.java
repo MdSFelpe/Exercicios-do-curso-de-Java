@@ -2,7 +2,7 @@
 produtos (N fornecido pelo usuário). Ao final,
 mostrar a etiqueta de preço de cada produto na
 mesma ordem em que foram digitados.
-Todo produto possui nome e preço.Produtos
+Todo produto possui nome e preço. Produtos
 importados possuem uma taxa de alfândega, e
 produtos usados possuem data de fabricação.
 Estes dados específicos devem ser
@@ -13,14 +13,14 @@ acrescentada ao preço final do produto.
 */
 
 
-//Diagrama uml
-
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
+
+
+
 
 public class Main {
     public static void main(String[] args) throws ParseException {
